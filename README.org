@@ -1,0 +1,22 @@
+#+TITLE: Fisherman Client Script
+#+AUTHOR: Pushkar Raj
+#+AUTHOR: px86@protonmail.com
+
+Client script for the =fisherman= phishing tool.
+
+* Usage
+
+#+begin_src shell
+  git clone https://github.com/px86/fisherman.git
+  cd fisherman
+  pipenv install
+  pipenv run python3 fisherman.py
+#+end_src
+
+If =python3= is not recognized, try =python= instead.
+
+If =pipenv= is not installed on your system,
+
+#+begin_src shell
+  pip install pipenv
+#+end_src

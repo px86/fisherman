@@ -1,4 +1,5 @@
 *~
 TODO
 .log
-secret.txt
+secrets.txt
+__pycache__/
